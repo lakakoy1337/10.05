@@ -10,7 +10,7 @@ def func2 ():
     Name = input()
     Age = int(input())
     
-    print("Имя ",Name)
+    print("Имя ", Name)
     print("Возвраст ", Age)
 
 #3
@@ -44,4 +44,4 @@ def func4(a: list, b: list):
 
 #5
 def calculation(x, y):
-    print("+:", x + y, "\n-:", x - y)
+    print("+:", x + y, "-:", x - y)
