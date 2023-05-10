@@ -7,8 +7,12 @@ func1(1, 2, 3)
 
 #2
 
-def func2 (name: str, age):
-    print('Имя: ', name, ' ', age, 'y.o')
+def func2 ():
+    Name = input()
+    Age = int(input())
+    
+    print("Имя ",Name)
+    print("Возвраст ", Age)
 
 #3
 def func3(x1: int, y1: int, x2: int, y2: int):
