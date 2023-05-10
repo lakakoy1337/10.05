@@ -6,7 +6,6 @@ def func1(*vozs):
 func1(1, 2, 3)
 
 #2
-
 def func2 ():
     Name = input()
     Age = int(input())
@@ -21,7 +20,7 @@ def func3(x1: int, y1: int, x2: int, y2: int):
     else:
         print("NO")
 
-
+#4
 def func4(a: list, b: list):
     c = []
     if len(a) > len(b):
@@ -43,6 +42,6 @@ def func4(a: list, b: list):
 
     print(c)
 
-
+#5
 def calculation(x, y):
     print("+:", x + y, "\n-:", x - y)
